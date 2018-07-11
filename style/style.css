@@ -543,6 +543,7 @@ position: relative;
 .services-info section p{
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 .services-info section p:nth-child(1){
   font-size: 48px;
@@ -554,4 +555,92 @@ position: relative;
   font-size: 18px;
   color: #fff;
   font-weight: bold;  
+}
+
+/* --- team --- */
+.team-block{
+  width: 350px;
+  border: 20px solid #eec400;
+  position: relative;
+}
+.team-block:hover figcaption{
+  display: flex;
+}
+.team-block figcaption{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(238, 196, 0, .80);
+  border: 25px solid #404040;
+  padding: 15px;
+  display: none;
+}
+.team .team-block:nth-child(1) img{
+  position: relative;
+  bottom: -20px;
+  left: -20px;
+}
+.team .team-block:nth-child(2) img{
+  position: relative;
+  bottom: -44px;
+  left: -40px;
+}
+.team .team-block:nth-child(3) img{
+  float: right;
+  position: relative;
+  bottom: -20px;
+  left: 20px;
+}
+.team-name{
+  text-transform: uppercase;
+}
+.team-name p:nth-child(1){
+  font-size: 24px;
+  color: #fff;
+}
+.team-name p:nth-child(2){
+  font-size: 14px;
+  color: #404040;
+}
+.team-icon{
+  display: flex;  
+}
+.team-icon .circle + .circle{
+  margin-left: 3px;
+}
+.team-icon .circle{
+  width: 10px;
+  height: 10px;
+  color: #404040;
+  font-size: 5px;
+  border-color: #404040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.dot-container{
+  display: flex;
+  margin-top: 60px;
+}
+.dot-container .dot + .dot{
+  margin-left: 12px;
+}
+.dot{
+  width: 20px;
+  height: 2px;
+  background-color: #eec400;
+  border: 1px solid #eec400;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.dot-checked{
+  background-color: #404040 !important;
+  border-color: #404040 !important;
+  width: 36px;
 }
