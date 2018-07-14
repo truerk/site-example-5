@@ -1,20 +1,3 @@
-1)Сжатие картинок https://toster.ru/q/508778 https://tinypng.com/ https://www.iloveimg.com/ru
-2)Кеширование
-3)GZIP
-4)Медиа запросы для разных телефонов
-5)при загрузке изменять формат и размер изображения
-
-http://theory.phphtml.net/jquery/
-
-<figure>
-  <img>
-  <figcaption>
-    Тут описание, которое будет появляться при наведении
-  </figcaption>
-</figure>
-
-SPECIAL_3_PROMO
-
 # Powered by Zyro.com
 
 <IfModule mod_expires.c>
@@ -41,3 +24,4 @@ RewriteCond %{REQUEST_FILENAME} !-f [OR]
 RewriteCond %{REQUEST_URI} ^\/(js\/main\.js|css\/(\d+|common|site)\.css)$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ zyro/$1 [L,QSA]
+
