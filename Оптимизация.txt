@@ -13,6 +13,10 @@ http://theory.phphtml.net/jquery/
   </figcaption>
 </figure>
 
+background-attachment: fixed;
+background-repeat: no-repeat;
+  background-position: // для нескольких картинок
+
 SPECIAL_3_PROMO
 
 # Powered by Zyro.com
